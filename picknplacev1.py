@@ -173,12 +173,12 @@ for i in range(cube_number):
 	    print'Release the cube'
 	    open()
 	    rospy.sleep(3)
-	    #8.step8: Back to init position
     else :
     	print'Out of range can not get'
     	print'Distence is: '
     	print(dist)
     	continue
+#8.step8: Back to init position
 close()
 rospy.sleep(5)
 print'back'
